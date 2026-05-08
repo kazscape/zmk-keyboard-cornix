@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: MIT
+
+# zmk-rgbled-widget currently declares WS2812_STRIP defaults without a type.
+# Provide the symbol type locally so strict Kconfig warning checks do not fail.
+config WS2812_STRIP
+    bool
