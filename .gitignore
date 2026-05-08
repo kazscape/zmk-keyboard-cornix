@@ -7,3 +7,13 @@ result
 target
 
 firmware
+
+# West workspace metadata and fetched dependencies (local only)
+.west/
+modules/
+optional/
+zmk/
+zephyr/
+zmk-helpers/
+zmk-dongle-display/
+zmk-rgbled-widget/

@@ -41,9 +41,8 @@
 
         /* SPI */
         reg = <0>; /* ignored, but necessary for SPI bindings */
-        // spi-max-frequency = <8000000>;  // 8MHz
-        spi-max-frequency = <6400000>;  // 6.4 MHz (was 8 MHz)
-        reset-delay = <70>;
+        spi-max-frequency = <4000000>;
+        reset-delay = <280>;
 
         /* WS2812 */
         chain-length = <2>;
